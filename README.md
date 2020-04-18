@@ -7,10 +7,10 @@ C언어로 보드게임 부루마블을 구현하는 프로젝트
 
 
 # Ingame
-start
-
 ![start](https://user-images.githubusercontent.com/24224903/79636226-2220f080-81b1-11ea-9509-e320f1e863ae.gif)
 
-ingame
+start
 
 ![ingame](https://user-images.githubusercontent.com/24224903/79636227-23521d80-81b1-11ea-8404-2df18ecca973.gif)
+
+ingame
