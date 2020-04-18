@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AppBase">
+      <UniqueIdentifier>{a7edb6ef-250f-47eb-82a3-da38e042407a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase\Draw">
+      <UniqueIdentifier>{c7e8c972-f361-4367-b715-f58df361f121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase\Input">
+      <UniqueIdentifier>{616473ea-377c-4a8f-bc73-4d46bffdffd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase\Main">
+      <UniqueIdentifier>{917c6948-6ac9-46af-ac71-007888b0a870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{85e6b1f7-cb64-45a2-b491-75a798bffa72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Intro">
+      <UniqueIdentifier>{6149cd9e-3881-40cc-8d5b-17be0339ac7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameSetting">
+      <UniqueIdentifier>{3e379044-9446-4272-9c62-55b1457b6fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameSetting\Draw_Field">
+      <UniqueIdentifier>{8f5837f9-1ce1-45f8-8003-bbc4e566a286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameSetting\Set_Area">
+      <UniqueIdentifier>{313ba9f5-7267-4503-9f35-c5758de3d327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameSetting\Set_User">
+      <UniqueIdentifier>{1da7dea2-89a2-4d41-a898-bc3d2a238764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Ingame">
+      <UniqueIdentifier>{677f5eb5-67d7-442b-b2a2-25d0da584a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Ingame\Game_Play">
+      <UniqueIdentifier>{d81d9914-ccee-48cd-b3d0-cde40fd8a90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Inform">
+      <UniqueIdentifier>{a8114553-b2f6-4406-ba7a-dc810bc96c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Ingame\Chance">
+      <UniqueIdentifier>{68ba5f9c-22dd-4df3-841e-9f2f588064cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Maintap">
+      <UniqueIdentifier>{f5c731c6-edda-4f00-9be2-6fd7dbfdd0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Maintap\Scene_Manual">
+      <UniqueIdentifier>{69bdc412-9d89-44e6-b426-52d550fae1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Maintap\Scene_Option">
+      <UniqueIdentifier>{df4b316b-715f-4159-b833-1fbb12760d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase\Fmod">
+      <UniqueIdentifier>{550dd0a1-0bcc-4da3-8b27-05369a0196fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Ingame\Scene_Ingame_option">
+      <UniqueIdentifier>{e45a4000-7479-4b76-9d72-9ecd0eac7cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase\FileIO">
+      <UniqueIdentifier>{7195e4c3-2adf-402e-956e-34a77aebea11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_FixArea">
+      <UniqueIdentifier>{b79df1f6-d423-4a54-8cfb-5ae4bace12c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scene_Gameover">
+      <UniqueIdentifier>{d519c7b4-6b14-4963-bb2f-465c813d5660}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Draw.cpp">
+      <Filter>AppBase\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>AppBase\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>AppBase\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Intro.cpp">
+      <Filter>Scene\Scene_Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Ingame.cpp">
+      <Filter>Scene\Scene_Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw_Field.cpp">
+      <Filter>Scene\GameSetting\Draw_Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Set_Area.cpp">
+      <Filter>Scene\GameSetting\Set_Area</Filter>
+    </ClCompile>
+    <ClCompile Include="Set_User.cpp">
+      <Filter>Scene\GameSetting\Set_User</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Inform.cpp">
+      <Filter>Scene\Scene_Inform</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Play.cpp">
+      <Filter>Scene\Scene_Ingame\Game_Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Chance.cpp">
+      <Filter>Scene\Scene_Ingame\Chance</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Maintap.cpp">
+      <Filter>Scene\Scene_Maintap</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manual.cpp">
+      <Filter>Scene\Scene_Maintap\Scene_Manual</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleMain.cpp">
+      <Filter>AppBase\Fmod</Filter>
+    </ClCompile>
+    <ClCompile Include="Fmod_set.cpp">
+      <Filter>AppBase\Fmod</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Option.cpp">
+      <Filter>Scene\Scene_Maintap\Scene_Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Ingame_option.cpp">
+      <Filter>Scene\Scene_Ingame\Scene_Ingame_option</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>AppBase\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_FixArea.cpp">
+      <Filter>Scene\Scene_FixArea</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Gameover.cpp">
+      <Filter>Scene\Scene_Gameover</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw.h">
+      <Filter>AppBase\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>AppBase\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Intro.h">
+      <Filter>Scene\Scene_Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw_Field.h">
+      <Filter>Scene\GameSetting\Draw_Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Set_Area.h">
+      <Filter>Scene\GameSetting\Set_Area</Filter>
+    </ClInclude>
+    <ClInclude Include="Set_User.h">
+      <Filter>Scene\GameSetting\Set_User</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Inform.h">
+      <Filter>Scene\Scene_Inform</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Play.h">
+      <Filter>Scene\Scene_Ingame\Game_Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Ingame.h">
+      <Filter>Scene\Scene_Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Chance.h">
+      <Filter>Scene\Scene_Ingame\Chance</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Maintap.h">
+      <Filter>Scene\Scene_Maintap</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manual.h">
+      <Filter>Scene\Scene_Maintap\Scene_Manual</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>AppBase\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>AppBase\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>AppBase\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>AppBase\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>AppBase\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>AppBase\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>AppBase\Fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Option.h">
+      <Filter>Scene\Scene_Maintap\Scene_Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Ingame_option.h">
+      <Filter>Scene\Scene_Ingame\Scene_Ingame_option</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>AppBase\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_FixArea.h">
+      <Filter>Scene\Scene_FixArea</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Gameover.h">
+      <Filter>Scene\Scene_Gameover</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodex.dll">
+      <Filter>AppBase\Fmod</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib">
+      <Filter>AppBase\Fmod</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
